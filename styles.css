@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 190px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(690deg, #29323c 0%, #485563 100%);
+    color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #D1D1D1;
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #29323c;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+    transform: scale(110%);
+}
+
